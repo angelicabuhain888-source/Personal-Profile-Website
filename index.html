@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Metadata and mobile viewport required by the activity. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio website">
+  <title>Buhain, Angelica SD. | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header"><nav class="nav wrap" aria-label="Main navigation">
+  <a class="logo" href="#home">ASDB<span>.</span></a>
+  <button id="menu-toggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  <ul id="nav-links"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode"><i class="fa-solid fa-moon"></i></button>
+</nav></header>
+<main>
+  <!-- Hero / About Me section. Replace the sample details with your own. -->
+  <section id="home" class="hero section"><div class="wrap hero-grid"><div>
+    <p class="eyebrow">HELLO, I'M</p><h1>Buhain, Angelica SD<span>.</span></h1><h2>IT Student &amp; Aspiring Web Developer</h2>
+    <p class="lead">I enjoy creating useful digital experiences and learning how technology can solve everyday problems. I am developing my skills in web development, UI design, and database management.</p>
+    <div class="actions"><a class="btn primary" href="#projects">Explore My Work <i class="fa-solid fa-arrow-right"></i></a><a class="btn secondary" href="#contact">Contact Me</a></div>
+    <!-- Replace the sample profile links and email with your own. -->
+    <div class="social"><a href="https://github.com/angelicabuhain888-source" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="mailto:angelicabuhain888@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a></div>
+  </div><div class="visual"><div class="orbit"></div><div class="avatar" role="img" aria-label="Profile photo placeholder"><i class="fa-solid fa-user"></i></div><span class="floating">✦ UI Design</span><span class="floating second">⌘ Web Development</span></div></div></section>
+  <!-- About section: biography and skills. -->
+  <section id="about" class="section about"><div class="wrap"><div class="heading"><p class="eyebrow">GET TO KNOW ME</p><h2>A little about <span>me</span></h2><p>Curious by nature, creative in approach, and always ready to learn.</p></div><div class="two-col">
+    <article class="card"><div class="icon"><i class="fa-solid fa-laptop-code"></i></div><h3>Learning through building</h3><p>I am an IT student who enjoys projects that combine design and technology. I like turning requirements into clear interfaces and practical solutions.</p><p>My goal is to improve my technical skills, collaborate with others, and create applications that are easy to use.</p></article>
+    <article class="card"><h3>Skills I'm developing</h3><p class="muted">Technologies and tools I have worked with</p><div class="skills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Java</span><span>SQL</span><span>React</span><span>Flutter</span><span>Figma</span></div><p class="tip"><i class="fa-solid fa-lightbulb"></i> Always learning. Always improving.</p></article>
+  </div></div></section>
+  <!-- Projects section contains three sample cards; customize project details as needed. -->
+  <section id="projects" class="section"><div class="wrap"><div class="heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects I've <span>worked on</span></h2><p>Academic and practice projects that helped me grow as a developer.</p></div><div class="projects">
+    <article class="project"><div class="project-image green"><i class="fa-solid fa-calendar-check"></i><small>01 / WEB APP</small></div><div class="project-body"><p class="type">SYSTEM DEVELOPMENT</p><h3>Campus Appointment &amp; Queueing System</h3><p>A proposed system that lets students book campus transactions, receive queue numbers, and track their turn.</p><div class="tags"><span>Web</span><span>UI Design</span><span>Notifications</span></div><a href="#contact">Ask me about this project ↗</a></div></article>
+    <article class="project"><div class="project-image purple"><i class="fa-solid fa-graduation-cap"></i><small>02 / DECISION SUPPORT</small></div><div class="project-body"><p class="type">DECISION SUPPORT SYSTEM</p><h3>Alab Pag-asa Scholarship DSS</h3><p>A scholarship evaluation concept using academic performance and family income criteria.</p><div class="tags"><span>Database</span><span>DSS</span><span>Analysis</span></div><a href="#contact">Ask me about this project ↗</a></div></article>
+    <article class="project"><div class="project-image peach"><i class="fa-solid fa-square-poll-vertical"></i><small>03 / MOBILE APP</small></div><div class="project-body"><p class="type">MOBILE APPLICATION</p><h3>Survey Information System</h3><p>A survey platform concept with member access, available surveys, status tracking, and responses.</p><div class="tags"><span>Flutter</span><span>React</span><span>Firebase</span></div><a href="#contact">Ask me about this project ↗</a></div></article>
+  </div></div></section>
+  <!-- Contact section includes a working email link. -->
+  <section id="contact" class="section"><div class="wrap contact"><div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project in <span>mind?</span></h2><p>I'm happy to connect, share ideas, and learn from new opportunities.</p></div><a class="btn white" href="mailto:angelicabuhain888@gmail.com">Send Me an Email <i class="fa-solid fa-paper-plane"></i></a></div></section>
+</main>
+<!-- Footer: current year is supplied by JavaScript. -->
+<footer><div class="wrap footer"><a class="logo" href="#home">ASDB<span>.</span></a><p>Designed and built by <b>Buhain, Angelica SD.</b> · <span id="year"></span></p><a href="https://github.com/angelicabuhain888-source" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div></footer>
+</body></html>
